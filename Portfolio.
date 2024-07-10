@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="login.css">
+   
+   </head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Services</a>
+            <a href="#skills" style="--i:4">Skills</a>
+            <a href="#portfolio" style="--i:5">Portfolio</a>
+            <a href="#contact" style="--i:6">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Mayank Bhatnagar</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I am a Web Developer certified by SingleTap company.</p>
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Mayank Bhatnagar_Photo.jpg" alt="Mayank Bhatnagar Photo">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h4>Web Developer</h4>
+            <p>I am a skilled web designer who has worked on many live projects with certified companies. I focus on creating user-friendly websites that meet client requirements and policies.</p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt' style='color:#00eeff'></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos natus atque corporis consequuntur accusantium dignissimos cumque ullam rem ad quam, ipsam architecto quia pariatur cum ab tempore temporibus autem. Quod?</p>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bx-crop' style='color:#00eeff'></i>
+                    <h2>Responsive Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos natus atque corporis consequuntur accusantium dignissimos cumque ullam rem ad quam, ipsam architecto quia pariatur cum ab tempore temporibus autem. Quod?</p>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bxl-apple' style='color:#00eeff'></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos natus atque corporis consequuntur accusantium dignissimos cumque ullam rem ad quam, ipsam architecto quia pariatur cum ab tempore temporibus autem. Quod?</p>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container1">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar">
+                    <i style="color: #c95d2e" class='bx bxl-html5'></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i style="color: #147bbc" class='bx bxl-css3'></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i style="color: #b0bc1e" class='bx bxl-javascript'></i>
+                    <div class="info">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i style="color: #c32ec9" class='bx bxl-python'></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i style="color: #69bcbc" class='bx bxl-react'></i>
+                    <div class="info">
+                        <span>React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+                <div>
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+                </div>
+                <div>
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">65%</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div>
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">75%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+                <div>
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Teamwork</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2>Latest Projects</h2>
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="5757453.jpg" alt="Project Image">
+                    <div class="layer">
+                        <h5>UI/UX Design</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eveniet tempore sunt, at similique impedit eos laboriosam distinctio vel ea alias culpa reiciendis perspiciatis laudantium fuga placeat aliquid excepturi amet.</p>
+                        <a href="#"><i class='bx bx-link-external' style="color: #0ef";
+
+CSS:
+
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+
+body {
+    color: #000;
+    background-color: #051129;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #081b29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header .logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+.header .navbar {
+    display: flex;
+}
+
+.header .navbar a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+    opacity: 0;
+    animation: slideTop 0.5s ease forwards;
+}
+
+.header .navbar a:hover {
+    color: #0ef;
+}
+
+/* Home section styles */
+.home {
+    background: url no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 70px 10% 0;
+    color: #ededed;
+}
+
+.home .home-content {
+    max-width: 600px;
+}
+
+.home .home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ededed;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 0.7s;
+}
+
+.home .home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 0.7s;
+}
+
+.home .home-content h3 span {
+    color: #0ef;
+}
+
+.home .home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: #ededed;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.home .home-content p {
+    font-size: 20px;
+    color: #ededed;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.home .home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    margin: 30px 15px 30px 0;
+}
+
+.home .home-sci a:hover {
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.home .btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+.home .btn-box:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+/* About section styles */
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+    background-color: #000;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about .about-img img {
+    padding-bottom: 20%;
+    max-width: 421px;
+    height: auto;
+    width: 81%;
+    border-radius: 30px;
+}
+
+.about .about-text h2 {
+    font-size: 60px;
+}
+
+.about .about-text h2 span {
+    color: #0ef;
+}
+
+.about .about-text h4 {
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+.about .about-text p {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+/* Services section styles */
+.services {
+    color: aliceblue;
+    font-size: 20px;
+    background-color: #000;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.services .sub-title {
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+    padding-bottom: 70px;
+}
+
+.services .sub-title span {
+    color: #0ef;
+}
+
+.services .container {
+    padding: 90px;
+}
+
+.services .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services .services-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px rgba(1, 34, 144, 0.97), 1px 1px 40px rgba(0, 83, 184, 0.97);
+}
+
+.services .services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services .services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services .services-list div a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services .services-list div:hover {
+    transform: translateY(-10px);
+}
+
+/* Technical skills bars section styles */
+.setion {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+
+.container1 .heading1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+
+.container1 .bar {
+    font-size: 23px;
+}
+
+.container1 .Technical-bars .bar {
+    margin-top: 40px 0;
+}
+
+.container1 .Technical-bars .bar:first-child {
+    margin-top: 0;
+}
+
+.container1 .Technical-bars .bar:last-child {
+    margin-bottom: 0;
+}
+
+.container1 .Technical-bars .bar .info {
+    margin-bottom: 5px;
+}
+
+.container1 .Technical-bars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s ease forwards;
+    opacity: 0;
+}
+
+.container1 .Technical-bars .bar .progress-line {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .Technical-bars .bar .progress-line span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .progress-line .line {
+    width: 100%;
+    background-color: #000000;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line {
+    width: 100%;
+    background-color: #0ef;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line2 {
+    width: 100%;
+    background-color: #000000;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line2 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line3 {
+    width: 100%;
+    background-color: #000000;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line3 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line4 {
+    width: 100%;
+    background-color: #000000;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line4 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line5 {
+    width: 100%;
+    background-color: #000000;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line5 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line6 {
+    width: 100%;
+    background-color: #000000;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line6 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line7 {
+    width: 100%;
+    background-color: #000000;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line7 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line8 {
+    width: 100%;
+    background-color: #000000;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line8 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line9 {
+    width: 100%;
+    background-color: #000000;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.container1 .line9 span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 2s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+/* Contact section styles */
+.contact {
+    background: #000000;
+    color: aliceblue;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact .contact-form h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.contact .contact-form form .form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.contact .contact-form form .form-group input,
+.contact .contact-form form .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #0ef;
+    border-radius: 6px;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+
+.contact .contact-form form .form-group input:focus,
+.contact .contact-form form .form-group textarea:focus {
+    border-color: #0ef;
+}
+
+.contact .contact-form form .send {
+    display: inline-block;
+    padding: 14px 60px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+.contact .contact-form form .send:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+/* Footer styles */
+.footer {
+    background: #051129;
+    color: #fff;
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 20px;
+}
+
+.footer .social-icons a {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #0ef;
+}
