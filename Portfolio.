@@ -748,6 +748,17 @@ body {
     transition: 0.3s;
 }
 
+JAVASCRIPT:
+
+var typed=new Typed(".text",{
+    strings: ["Frontend Developer", "Sktechartist", "Web Developer"],
+    typeSpeed:100,
+    backSpeed:100,
+    backDelay:1000,
+    loop:true
+})
+
+
 .footer .social-icons a:hover {
     color: #0ef;
 }
